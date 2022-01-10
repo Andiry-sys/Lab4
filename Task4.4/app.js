@@ -1,12 +1,19 @@
 let _num = +prompt(`Enter number`)
-let _flag = true
+
+
 function Easy(num) {
-    for (let i = 0; i < _num; i++) {
-        if (_num % i == 0) {
+    let _flag = true
+    for (let i = 2; i < num; i++) {
+        if (num % i == 0) {
             _flag = false
-            break
+            return _flag
+        }
+        else {
+            return _flag
         }
 
     }
 }
+
+
 console.log(Easy(_num));
