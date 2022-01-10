@@ -9,4 +9,4 @@ function Easy(num) {
 
     }
 }
-console.log(_flag);
+console.log(Easy(_num));
